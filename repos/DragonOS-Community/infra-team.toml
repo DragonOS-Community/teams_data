@@ -1,0 +1,7 @@
+org = "DragonOS-Community"
+name = "infra-team"
+description = "Coordination repository for the DragonOS-Community infra team"
+bots = []
+
+[access.teams]
+infra = "write"

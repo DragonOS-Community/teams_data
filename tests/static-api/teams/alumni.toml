@@ -1,0 +1,6 @@
+name = "alumni"
+
+[people]
+leads = []
+members = []
+include-all-alumni = true

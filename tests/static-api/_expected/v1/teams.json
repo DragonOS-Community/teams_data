@@ -1,0 +1,164 @@
+{
+  "alumni": {
+    "name": "alumni",
+    "kind": "team",
+    "subteam_of": null,
+    "members": [
+      {
+        "name": "Fifth user",
+        "github": "user-5",
+        "github_id": 5,
+        "is_lead": false
+      }
+    ],
+    "alumni": [],
+    "github": null,
+    "website_data": null,
+    "roles": [],
+    "discord": []
+  },
+  "foo": {
+    "name": "foo",
+    "kind": "team",
+    "subteam_of": null,
+    "members": [
+      {
+        "name": "Zeroth user",
+        "github": "user-0",
+        "github_id": 0,
+        "is_lead": true
+      },
+      {
+        "name": "First user",
+        "github": "user-1",
+        "github_id": 0,
+        "is_lead": false
+      }
+    ],
+    "alumni": [],
+    "github": {
+      "teams": [
+        {
+          "org": "test-org",
+          "name": "foo",
+          "members": [
+            0,
+            0
+          ]
+        },
+        {
+          "org": "test-org",
+          "name": "renamed-team",
+          "members": [
+            0,
+            0,
+            2
+          ]
+        }
+      ]
+    },
+    "website_data": {
+      "name": "Demo Team",
+      "description": "Why do you care about the description of test teams?",
+      "page": "demo",
+      "email": "foo@example.com",
+      "repo": "https://github.com/ghost/foo",
+      "discord": {
+        "channel": "#foo",
+        "url": "https://discord.gg/AAAAA"
+      },
+      "zulip_stream": "t-foo",
+      "matrix_room": "#t-foo:example.com",
+      "weight": 1000
+    },
+    "roles": [],
+    "discord": []
+  },
+  "leaderless": {
+    "name": "leaderless",
+    "kind": "team",
+    "subteam_of": null,
+    "members": [
+      {
+        "name": "Zeroth user",
+        "github": "user-0",
+        "github_id": 0,
+        "is_lead": false
+      }
+    ],
+    "alumni": [],
+    "github": null,
+    "website_data": null,
+    "roles": [],
+    "discord": []
+  },
+  "leads-permissions": {
+    "name": "leads-permissions",
+    "kind": "team",
+    "subteam_of": null,
+    "members": [
+      {
+        "name": "Sixth user",
+        "github": "user-6",
+        "github_id": 6,
+        "is_lead": true
+      },
+      {
+        "name": "Third user",
+        "github": "user-3",
+        "github_id": 3,
+        "is_lead": false
+      },
+      {
+        "name": "Fourth user",
+        "github": "user-4",
+        "github_id": 4,
+        "is_lead": false
+      }
+    ],
+    "alumni": [],
+    "github": null,
+    "website_data": null,
+    "roles": [],
+    "discord": []
+  },
+  "wg-test": {
+    "name": "wg-test",
+    "kind": "working_group",
+    "subteam_of": null,
+    "members": [
+      {
+        "name": "Second user",
+        "github": "user-2",
+        "github_id": 2,
+        "is_lead": true,
+        "roles": [
+          "convener"
+        ]
+      }
+    ],
+    "alumni": [
+      {
+        "name": "Zeroth user",
+        "github": "user-0",
+        "github_id": 0,
+        "is_lead": false
+      },
+      {
+        "name": "Fifth user",
+        "github": "user-5",
+        "github_id": 5,
+        "is_lead": false
+      }
+    ],
+    "github": null,
+    "website_data": null,
+    "roles": [
+      {
+        "id": "convener",
+        "description": "Convener"
+      }
+    ],
+    "discord": []
+  }
+}

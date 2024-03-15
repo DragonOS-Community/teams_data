@@ -1,0 +1,12 @@
+org = "test-org"
+name = "some_repo"
+description = "A repo!"
+bots = []
+
+[access.teams]
+foo = "admin"
+
+[[branch-protections]]
+pattern = "master"
+ci-checks = ["CI"]
+allowed-merge-teams = ["foo"]

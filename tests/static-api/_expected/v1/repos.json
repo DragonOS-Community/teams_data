@@ -1,0 +1,58 @@
+{
+  "test-org": [
+    {
+      "org": "test-org",
+      "name": "archived_repo",
+      "description": "An archived repo!",
+      "homepage": null,
+      "bots": [],
+      "teams": [
+        {
+          "name": "foo",
+          "permission": "admin"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [
+            "CI"
+          ],
+          "dismiss_stale_review": false,
+          "required_approvals": 1,
+          "allowed_merge_teams": []
+        }
+      ],
+      "archived": true
+    },
+    {
+      "org": "test-org",
+      "name": "some_repo",
+      "description": "A repo!",
+      "homepage": null,
+      "bots": [],
+      "teams": [
+        {
+          "name": "foo",
+          "permission": "admin"
+        }
+      ],
+      "members": [],
+      "branch_protections": [
+        {
+          "pattern": "master",
+          "ci_checks": [
+            "CI"
+          ],
+          "dismiss_stale_review": false,
+          "required_approvals": 1,
+          "allowed_merge_teams": [
+            "foo"
+          ]
+        }
+      ],
+      "archived": false
+    }
+  ]
+}

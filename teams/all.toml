@@ -1,0 +1,10 @@
+name = "all"
+kind = "marker-team"
+
+[people]
+leads = ["fslongjin"]
+members = []
+include-all-team-members = true
+
+[[github]]
+orgs = ["DragonOS-Community"]

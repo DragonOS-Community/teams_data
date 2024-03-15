@@ -1,0 +1,5 @@
+/target
+**/*.rs.bk
+/tests/static-api/_output
+/build
+Cargo.lock

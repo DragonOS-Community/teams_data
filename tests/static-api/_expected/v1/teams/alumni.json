@@ -1,0 +1,18 @@
+{
+  "name": "alumni",
+  "kind": "team",
+  "subteam_of": null,
+  "members": [
+    {
+      "name": "Fifth user",
+      "github": "user-5",
+      "github_id": 5,
+      "is_lead": false
+    }
+  ],
+  "alumni": [],
+  "github": null,
+  "website_data": null,
+  "roles": [],
+  "discord": []
+}

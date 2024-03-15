@@ -1,0 +1,13 @@
+allowed-mailing-lists-domains = [
+    "dragonos.org",
+    "dragonos.org.cn"
+]
+
+allowed-github-orgs = [
+    "DragonOS-Community"
+]
+
+permissions-bools = [
+    "DragonOS",
+    "DragonReach"
+]
