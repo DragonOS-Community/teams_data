@@ -14,6 +14,7 @@ members = [
     "TTaq",
     "Samuka007",
     "kkkkkong",
+    "Chiichen",
 ]
 
 # 标记已经退休的人
@@ -21,7 +22,5 @@ alumni = []
 
 [permissions]
 
-
 [[github]]
 orgs = ["DragonOS-Community"]
-
