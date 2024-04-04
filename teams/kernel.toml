@@ -3,6 +3,8 @@ name = "kernel"
 [people]
 leads = [
     "fslongjin",
+    "Chiichen",
+    "GnoCiYeH",
 ]
 
 members = [
@@ -16,6 +18,7 @@ members = [
     "kkkkkong",
     "laokengwt",
     "Chiichen",
+    "GnoCiYeH",
 ]
 
 # 标记已经退休的人
