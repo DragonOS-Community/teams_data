@@ -1,0 +1,79 @@
+name: Organization Membership Request
+description: Request membership in a Kubernetes Org
+labels: [ "A-github-membership" ]
+title: "REQUEST: New membership for <your-GH-handle>"
+body:
+- type: markdown
+  attributes:
+    value: |
+      感谢您填写加入社区的申请！
+- id: github
+  type: input
+  attributes:
+    label: GitHub Username
+    placeholder: e.g. @example_user
+  validations:
+    required: true
+- id: dragonos_account
+  type: input
+  attributes:
+    label: [DragonOS Account](https://account.dragonos.org.cn/login/DragonOS) 的ID（在[DragonOS Account](https://account.dragonos.org.cn/login/DragonOS)右上角“我的账户”中获取）
+    placeholder: e.g. @example_user
+  validations:
+    required: true
+- id: org
+  type: dropdown
+  attributes:
+    label: Organization you are requesting membership in
+    multiple: true
+    options:
+    - DragonOS-Community
+  validations:
+    required: true
+- id: requirements
+  type: checkboxes
+  attributes:
+    label: Requirements
+    options:
+    - label: 我已认真阅读了[社区成员指南](https://community.dragonos.org/governance/community-membership.html)
+      required: true
+    - label: 我已经[启用了我的GitHub账户的2FA认证](https://github.com/settings/security)
+      required: true
+    - label: 我已经follow了 [DragonOS-Community的Github组织](https://github.com/DragonOS-Community)
+      required: true
+    - label: 我已经注册了 [DragonOS Account](https://account.dragonos.org.cn/DragonOS)
+      required: true
+    - label: 我积极参与了1个或多个DragonOS子项目的贡献。
+      required: true
+    - label: 我有两名推荐者，他们符合社区成员指南中列出的推荐者要求。
+      required: true
+    - label: 在此申请之前，我已与我的推荐者进行了沟通，他们已同意推荐我的申请。
+      required: true
+    - label: 我确认我的两名推荐者必须在DragonOS Community的GitHub组织内的至少一个SIG中，是审查者(Reviewer)或批准者(Approver)或更高级别的技术职位。
+      required: true
+    - id: sponsor_1
+  type: input
+  attributes:
+    label: "Sponsor 1"
+    description: GitHub handle of your sponsor
+    placeholder: e.g. @sponsor-1
+  validations:
+    required: true
+- id: sponsor_2
+  type: input
+  attributes:
+    label: "Sponsor 2"
+    description: GitHub handle of your sponsor
+    placeholder: e.g. @sponsor-2
+  validations:
+    required: true
+- id: contributions
+  type: textarea
+  attributes:
+    label: 在此一一列出你对DragonOS项目的贡献。 List of contributions to the DragonOS project
+    placeholder: |
+      - PRs reviewed / authored
+      - Issues responded to
+      - SIG projects I am involved with
+  validations:
+    required: true
