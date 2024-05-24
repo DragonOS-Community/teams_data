@@ -1,5 +1,5 @@
 name: Organization Membership Request
-description: Request membership in a DragonOS Community Org
+description: Request membership in a DragonOS Org
 labels: [ "A-github-membership" ]
 title: "REQUEST: New membership for <your-GH-handle>"
 body:
