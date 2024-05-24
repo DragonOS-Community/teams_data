@@ -1,5 +1,5 @@
 name: Organization Membership Request
-description: Request membership in a Kubernetes Org
+description: Request membership in a DragonOS Org
 labels: [ "A-github-membership" ]
 title: "REQUEST: New membership for <your-GH-handle>"
 body:
@@ -17,10 +17,10 @@ body:
 - id: dragonos_account
   type: input
   attributes:
-    label: [DragonOS Account](https://account.dragonos.org.cn/login/DragonOS) 的ID（在[DragonOS Account](https://account.dragonos.org.cn/login/DragonOS)右上角“我的账户”中获取）
+    label: DragonOS Account的ID（在 https://account.dragonos.org.cn/login/DragonOS 右上角“我的账户”中获取）
     placeholder: e.g. @example_user
   validations:
-    required: true
+    required: false
 - id: org
   type: dropdown
   attributes:
@@ -54,16 +54,16 @@ body:
     - id: sponsor_1
   type: input
   attributes:
-    label: "Sponsor 1"
-    description: GitHub handle of your sponsor
+    label: "推荐者1"
+    description: 你的推荐者的GitHub ID
     placeholder: e.g. @sponsor-1
   validations:
     required: true
 - id: sponsor_2
   type: input
   attributes:
-    label: "Sponsor 2"
-    description: GitHub handle of your sponsor
+    label: "推荐者2"
+    description: 你的推荐者的GitHub ID
     placeholder: e.g. @sponsor-2
   validations:
     required: true
