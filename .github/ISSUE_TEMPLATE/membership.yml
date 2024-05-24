@@ -17,10 +17,10 @@ body:
 - id: dragonos_account
   type: input
   attributes:
-    label: DragonOS Account的ID（在 [DragonOS Account](https://account.dragonos.org.cn/login/DragonOS) 右上角“我的账户”中获取）
+    label: DragonOS Account的ID（在 https://account.dragonos.org.cn/login/DragonOS 右上角“我的账户”中获取）
     placeholder: e.g. @example_user
   validations:
-    required: true
+    required: false
 - id: org
   type: dropdown
   attributes:
