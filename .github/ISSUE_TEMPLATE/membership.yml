@@ -1,5 +1,5 @@
 name: Organization Membership Request
-description: Request membership in a DragonOS Org
+description: Request membership in a DragonOS Community Org
 labels: [ "A-github-membership" ]
 title: "REQUEST: New membership for <your-GH-handle>"
 body:
@@ -54,16 +54,16 @@ body:
     - id: sponsor_1
   type: input
   attributes:
-    label: "Sponsor 1"
-    description: GitHub handle of your sponsor
+    label: "推荐者1"
+    description: 你的推荐者的GitHub ID
     placeholder: e.g. @sponsor-1
   validations:
     required: true
 - id: sponsor_2
   type: input
   attributes:
-    label: "Sponsor 2"
-    description: GitHub handle of your sponsor
+    label: "推荐者2"
+    description: 你的推荐者的GitHub ID
     placeholder: e.g. @sponsor-2
   validations:
     required: true
