@@ -1,11 +1,11 @@
-name = "infra"
+name = "cloud-provider"
 
 [people]
 leads = [
-    "kkkkkong",
+    "1037827920",
 ]
 members = [
-    "kkkkkong",
+    "1037827920",
 ]
 
 # 标记已经退休的人

@@ -1,10 +1,13 @@
-name = "kernel"
+name = "main"
 
 [people]
 leads = [
     "fslongjin",
     "Chiichen",
     "GnoCiYeH",
+    "val213",
+    "xiaolin2004",
+
 ]
 
 members = [
@@ -19,6 +22,7 @@ members = [
     "laokengwt",
     "Chiichen",
     "GnoCiYeH",
+    "Samuka007"
 ]
 
 # 标记已经退休的人

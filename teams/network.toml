@@ -1,11 +1,11 @@
-name = "infra"
+name = "network"
 
 [people]
 leads = [
-    "kkkkkong",
+    "Samuka007",
 ]
 members = [
-    "kkkkkong",
+    "Samuka007",
 ]
 
 # 标记已经退休的人
