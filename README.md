@@ -9,31 +9,29 @@ This repository contains the structure of the DragonOS teams.
 
 It's possible to interact with this repository through its CLI tool.
 
-### Verifying the integrity of the repository
+### 验证仓库的完整性
 
-This repository contains some sanity checks to avoid having stale or broken
-data. You can run the checks locally with the `check` command:
+此仓库包含一些健全性检查，以避免过时或损坏的数据。
+
+在修改了仓库数据后，请在PR之前，使用 `check` 命令在本地运行这些检查：
 
 ```
 cargo run check
 ```
 
-Note that some of these checks will be skipped due to missing API tokens.
+请注意，由于缺少 API 令牌，这些检查中的一些将会被跳过。
 
-### Adding a person to the repository
+### 向仓库中添加人员
 
-It's possible to fetch the public information present in a GitHub profile and
-store it in a person's TOML file:
+可以获取 GitHub 个人资料中存在的公共信息，并将其存储在人员的 TOML 文件中：
 
 ```
 cargo run add-person <github-username>
 ```
 
-You can also add additional information, such as someone's Discord or Zulip ID by adding additional fields to their `.toml` file.
+您还可以添加附加信息，比如某人的 Discord 或 Zulip ID，通过在他们的 `.toml` 文件中添加额外的字段。
 
-To determine someone's Zulip ID, find them in the list of people on the
-right-hand side in Zulip, click the "three dots" menu, and copy the 'User ID'
-into the toml file:
+要确定某人的 Zulip ID，请在 Zulip 的右侧人员列表中找到他们，点击“三个点”菜单，并将“User ID”复制到 toml 文件中：
 
 ```
 zulip-id = <user id>
