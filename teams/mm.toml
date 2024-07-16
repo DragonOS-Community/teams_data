@@ -1,0 +1,20 @@
+name = "mm"
+
+[people]
+leads = [
+    "MemoryShore",
+    "Jomocool",
+]
+members = [
+    "MemoryShore",
+    "Jomocool",
+]
+
+# 标记已经退休的人
+alumni = []
+
+[permissions]
+
+
+[[github]]
+orgs = ["DragonOS-Community"]
