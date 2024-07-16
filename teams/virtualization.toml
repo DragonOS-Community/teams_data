@@ -1,0 +1,18 @@
+name = "virtualization"
+
+[people]
+leads = [
+    "GnoCiYeH",
+]
+members = [
+    "GnoCiYeH",
+]
+
+# 标记已经退休的人
+alumni = []
+
+[permissions]
+
+
+[[github]]
+orgs = ["DragonOS-Community"]
