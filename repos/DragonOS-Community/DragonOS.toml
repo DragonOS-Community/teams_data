@@ -1,0 +1,13 @@
+org = "DragonOS-Community"
+name = "DragonOS"
+description = "DragonOS Main repository"
+bots = []
+
+[access.teams]
+infra = "write"
+cloud-provider = "write"
+main = "write"
+mm = "write"
+network = "write"
+obs = "write"
+virtualization = "write"

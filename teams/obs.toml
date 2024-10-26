@@ -1,0 +1,19 @@
+name = "obs"
+
+[people]
+leads = [
+    "Chiichen",
+]
+members = [
+    "Chiichen",
+    "Godones",
+]
+
+# 标记已经退休的人
+alumni = []
+
+[permissions]
+
+
+[[github]]
+orgs = ["DragonOS-Community"]
